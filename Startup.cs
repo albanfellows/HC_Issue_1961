@@ -22,6 +22,7 @@ namespace GraphQL_Bug
                 SchemaBuilder.New()
                 .AddServices(s)
                 .AddQueryType<QueryType>()
+                .AddFiltering()
                 .Create());
         }
 
